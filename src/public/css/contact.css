@@ -1,0 +1,202 @@
+.contact-form{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1230px;
+}
+
+.contact-form h2{
+    color: #8b7969;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.form__label--item{
+    color: #907e6f;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    margin: 0;
+    border-radius: 3px;
+    color: #f89495;
+}
+
+.form__error {
+    height: 20px;
+    font-size: 15px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f4f4f4;
+    appearance: none;
+    color: #bca28b;
+    padding-left: 25px;
+}
+
+.form__input--text{
+    display: flex;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+/*お名前(山田)*/
+#name-area{
+    margin-right: 30px;
+    width: 270px;
+}
+/*お名前(太郎)*/
+#name-line{
+    width: 300px;
+}
+
+
+/*性別*/
+.radio-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3em 2em;
+    border: none;
+    width: 600px;
+}
+
+.radio-1 label {
+    display: flex;
+    align-items: center;
+    gap: 0 .5em;
+    position: relative;
+    cursor: pointer;
+    color: #907e6f;
+}
+
+.radio-1 label::before,
+.radio-1 label:has(:checked)::after {
+    border-radius: 50%;
+    content: '';
+}
+
+.radio-1 label::before {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #8b7969;
+}
+
+.radio-1 label:has(:checked)::after {
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    background-color: #8b7969;
+    animation: anim-radio-1 .3s linear;
+}
+
+@keyframes anim-radio-1 {
+    0% {
+        box-shadow: 0 0 0 1px transparent;
+    }
+    50% {
+        box-shadow: 0 0 0 10px #8b796933;
+    }
+    100% {
+        box-shadow: 0 0 0 10px transparent;
+    }
+}
+
+.radio-1 input {
+    display: none;
+}
+
+
+/*電話*/
+#tel{
+    width: 600px;
+}
+
+#tel-area,#tel-prefix,#tel-line{
+    width: 300px;
+    padding: 0;
+    text-align: center;
+}
+
+.tel-separator {
+    white-space: nowrap;
+    padding: 10px 15px ;
+}
+
+
+#select-box{
+    margin-right: 300px;
+}
+.selectbox-3 {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.selectbox-3::after {
+    position: absolute;
+    right: 15px;
+    width: 20px;
+    height: 15px;
+    background-color: #beb2a6;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    content: '';
+    pointer-events: none;
+}
+
+.selectbox-3 select {
+    appearance: none;
+    min-width: 230px;
+    width: 300px;
+    height: 2.5em;
+    padding: .4em calc(.8em + 30px) .4em .8em;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    color: #cbc1b8;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+
+.form__input--textarea textarea {
+    height: 130px;
+}
+
+/*ボタン*/
+.form__button {
+    margin-top: 30px;
+  }
+  
+  .form__button-submit {
+    padding: 10px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    margin-right: 150px;
+    background: #82756a;
+    color: #fff;
+    cursor: pointer;
+  }

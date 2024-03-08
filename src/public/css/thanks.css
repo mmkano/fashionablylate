@@ -1,0 +1,47 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+  }
+
+.thanks-ttl{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+    color: #f9f8f8;
+    font-weight: lighter;
+    z-index: -1;
+}
+
+.thanks-ttl h1{
+    font-weight: 500;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+    color: #978779;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 55px;
+    padding: 10px 50px;
+    background-color: #82756a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}

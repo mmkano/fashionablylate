@@ -1,0 +1,103 @@
+body {
+    background-color: #f1ece6;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+  .header__inner {
+    margin: 0 auto;
+    max-width: 1230px;
+    text-align: center;
+    padding-left: 120px;
+  }
+
+  .header__logo {
+    color: #8b7969;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+  }
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.loginButton {
+    background-color: #f6f6f6;
+    border: 1px solid #ede4da;
+    padding: 0 20px;
+    cursor: pointer;
+    color: #e4d7cd;
+    margin-right: 40px;
+    height: 25px;
+}
+
+.register-form {
+    display: flex;
+    max-width: 1230px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#registerTitle {
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    color: #8b7969;
+}
+
+#registerSection {
+    width: 40%;
+    height: 400px;
+    background-color: white;
+    padding: 40px 20px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#registerForm {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #948476;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+    color: #bca28b;
+}
+
+button[type="submit"] {
+    background-color: #82756a;
+    color: white;
+    margin: 0 auto;
+    width: 30%;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}

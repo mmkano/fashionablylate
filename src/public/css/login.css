@@ -1,0 +1,106 @@
+body {
+    background-color: #f1ece6;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+}
+
+.header__inner {
+    margin: 0 auto;
+    max-width: 1230px;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.header__logo {
+    color: #8b7969;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.loginButton {
+    background-color: #f6f6f6;
+    border: 1px solid #ede4da;
+    padding: 0 20px;
+    cursor: pointer;
+    color: #e4d7cd;
+    margin-right: 40px;
+    height: 25px;
+}
+
+.login-form {
+    display: flex;
+    max-width: 1230px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.loginTitle {
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    color: #8b7969;
+}
+
+.loginSection {
+    width: 40%;
+    height: 400px;
+    background-color: white;
+    padding: 40px 20px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.loginForm {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 30px;
+    color: #948476;
+    font-size: 24px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 280px;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    margin-bottom: 0;
+    background-color: #f4f4f4;
+    color: #bca28b;
+}
+
+button[type="submit"] {
+    background-color: #82756a;
+    color: white;
+    margin: 0 auto;
+    width: 40%;
+    padding: 10px 20px;
+    margin-top: 60px;
+    border: none;
+    cursor: pointer;
+}

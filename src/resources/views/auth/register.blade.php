@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionablyLate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/register.css') }}">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <a class="header__logo" href="/">
+                fashionablyLate
+            </a>
+        </div>
+        <a href="/login" class="loginButtonLink" >
+            <button class="loginButton">login</button>
+        </a>
+    </header>
+
+
+    <main>
+        <div class="register-form">
+        <h2 id="registerTitle">Register</h2>
+        <section id="registerSection">
+            <form id="registerForm" action="/register" method="post">
+            @csrf
+                <label for="name">お名前</label>
+                <input type="text" id="name" name="name" placeholder="例: 山田 太郎">
+
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" placeholder="例: test@example.com">
+
+                <label for="password">パスワード</label>
+                <input type="password" id="password" name="password" placeholder="例: coachtech1106">
+
+                <button type="submit">登録</button>
+            </form>
+        </section>
+    </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.header {
+    border-bottom: 1px solid #eeeeed;
+  }
+  
+  .header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+  }
+  
+  .header__logo {
+    color: #8b7969;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+  }
+
+input{
+  font-family: 'Playfair Display', serif;
+}
