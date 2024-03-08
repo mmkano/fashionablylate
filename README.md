@@ -20,7 +20,7 @@ Laravel環境構築
 *MySQL 8.0
 
 ##ER図
-![ER図](images/er.png)
+https://github.com/mmkano/fashionablylate/issues/1#issue-2176730560
 
 ##URL
 開発環境:http://localhost/
